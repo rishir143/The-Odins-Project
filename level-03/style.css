@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.page {
+  min-height: 100dvh;
+  background-color: #baedc2;
+  border: 6px solid green;
+  padding: 10px;
+}
+.flex-container {
+  background-color: aqua;
+  border: 4px solid blue;
+  padding: 25px;
+  display: flex;
+  margin: 5px;
+  min-height: 70px;
+}
+.first,
+.second,
+.third {
+  background: #fed5b3;
+  border: 4px solid #ff756a;
+  min-height: 60px;
+  margin: 10px;
+  flex: 1;
+}
+
+.second {
+  display: flex;
+  padding: 5px;
+}
+.child-second {
+  background-color: pink;
+  border: 4px solid red;
+  flex: 1;
+}
+.flex-container-2 {
+  min-height: 45vh;
+  background-color: aqua;
+  border: 6px solid blue;
+  margin: 5px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+.one {
+  min-width: 80dvh;
+  background-color: #fed5b3;
+  border: 4px solid #ff756a;
+}
+.right-div {
+  padding: 10px;
+}
+.right-div .inner-child {
+  min-height: 120px;
+  margin: 5px;
+  background-color: pink;
+  border: 4px solid red;
+}
+
+.flex-container-3 {
+  min-height: 25vh;
+  background-color: aqua;
+  border: 6px solid blue;
+  margin: 6px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.bigger-one {
+  background-color: #ded9fd;
+  border: 5px solid #5e50c2;
+  min-height: 70px;
+  min-width: 350px;
+}
+.smaller-one {
+  background-color: pink;
+  border: 4px solid #ff756a;
+  min-height: 70px;
+  min-width: 200px;
+}
